@@ -1,0 +1,14 @@
+YAML
+name: BoskiTopor
+version: 1.0
+main: pl.anarchia.boskitopor.BoskiToporPlugin
+api-version: 1.20
+author: AnarchiaEvent
+commands:
+  boskitopor:
+    description: Daje Boski Topór
+    permission: boskitopor.admin
+    aliases: [bt]
+permissions:
+  boskitopor.admin:
+    default: op
